@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume and Job Description Upload</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="file"], textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .response {
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Resume Matcher</h2>
+        <form action="http://localhost:5000/process" method="POST" enctype="multipart/form-data">
+            <label for="job_description">Job Description:</label><br>
+            <textarea id="job_description" name="job_description" rows="5" cols="30" required></textarea><br><br>
+            <label for="resume">Upload Resume (PDF):</label><br>
+            <input type="file" id="resume" name="resume" accept=".pdf" required><br><br>
+            <button type="submit">Submit</button>
+          </form>
+          
+        <div class="response" id="response"></div>
+    </div>
+
+    <script>
+        const form = document.getElementById('uploadForm');
+        const responseDiv = document.getElementById('response');
+
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const formData = new FormData();
+            const resumeFile = document.getElementById('resume').files[0];
+            const jobDescription = document.getElementById('job_description').value;
+
+            formData.append('resume', resumeFile);
+            formData.append('job_description', jobDescription);
+
+            try {
+                const response = await fetch('/process', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    responseDiv.innerHTML = `<p><strong>Experience Similarity:</strong> ${data.experience_similarity.toFixed(2)}</p>
+                                              <p><strong>Skill Similarity:</strong> ${data.skill_similarity.toFixed(2)}</p>
+                                              <p><strong>Weighted Similarity:</strong> ${data.weighted_similarity.toFixed(2)}</p>`;
+                } else {
+                    const error = await response.json();
+                    responseDiv.innerHTML = `<p style="color: red;">Error: ${error.error}</p>`;
+                }
+            } catch (error) {
+                responseDiv.innerHTML = `<p style="color: red;">An unexpected error occurred. Please try again later.</p>`;
+            }
+        });
+    </script>
+</body>
+</html>

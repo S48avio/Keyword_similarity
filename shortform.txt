@@ -1,0 +1,450 @@
+crud: create, read, update, delete
+api: application programming interface
+sdk: software development kit
+ci/cd: continuous integration / continuous deployment
+oops: object-oriented programming system
+mvc: model-view-controller
+dry: don’t repeat yourself
+solid: single responsibility, open-closed, liskov substitution, interface segregation, dependency inversion
+os: operating system
+dbms: database management system
+tcp/ip: transmission control protocol / internet protocol
+lan: local area network
+wan: wide area network
+dns: domain name system
+ftp: file transfer protocol
+ascii: american standard code for information interchange
+eda: exploratory data analysis
+etl: extract, transform, load
+ml: machine learning
+dl: deep learning
+ai: artificial intelligence
+nlp: natural language processing
+rnn: recurrent neural network
+cnn: convolutional neural network
+pca: principal component analysis
+kpi: key performance indicator
+agi: artificial general intelligence
+nlg: natural language generation
+rl: reinforcement learning
+gan: generative adversarial network
+iot: internet of things
+bert: bidirectional encoder representations from transformers
+gpt: generative pre-trained transformer
+lstm: long short-term memory
+crf: conditional random field
+hmm: hidden markov model
+ar: augmented reality
+vr: virtual reality
+ux: user experience
+ui: user interface
+qos: quality of service
+http: hypertext transfer protocol
+https: hypertext transfer protocol secure
+json: javascript object notation
+xml: extensible markup language
+dom: document object model
+jwt: json web token
+rest: representational state transfer
+soap: simple object access protocol
+fifo: first in, first out
+lifo: last in, first out
+dns: domain name system
+ip: internet protocol
+udp: user datagram protocol
+ssl: secure sockets layer
+tls: transport layer security
+url: uniform resource locator
+uri: uniform resource identifier
+ssh: secure shell
+sql: structured query language
+nosql: not only sql
+orm: object relational mapping
+bi: business intelligence
+eda: exploratory data analysis
+eda: electrical design automation
+crud: create, read, update, delete
+posix: portable operating system interface
+http: hypertext transfer protocol
+https: hypertext transfer protocol secure
+ssl: secure sockets layer
+tls: transport layer security
+url: uniform resource locator
+tcp: transmission control protocol
+ip: internet protocol
+cidr: classless inter-domain routing
+acl: access control list
+dhcp: dynamic host configuration protocol
+icmp: internet control message protocol
+mac: media access control
+nat: network address translation
+arp: address resolution protocol
+rdp: remote desktop protocol
+vpn: virtual private network
+wan: wide area network
+lan: local area network
+wlan: wireless local area network
+man: metropolitan area network
+pan: personal area network
+san: storage area network
+can: campus area network
+gsm: global system for mobile communications
+lte: long-term evolution
+cdma: code division multiple access
+sim: subscriber identity module
+imei: international mobile equipment identity
+rfid: radio frequency identification
+nfc: near field communication
+pdf: portable document format
+eps: encapsulated postscript
+jpeg: joint photographic experts group
+png: portable network graphics
+gif: graphics interchange format
+bmp: bitmap
+tiff: tagged image file format
+svg: scalable vector graphics
+css: cascading style sheets
+html: hypertext markup language
+js: javascript
+jquery: javascript library
+php: hypertext preprocessor
+xml: extensible markup language
+xss: cross-site scripting
+sql: structured query language
+nosql: not only sql
+ldap: lightweight directory access protocol
+ldap: lightweight directory access protocol
+ftp: file transfer protocol
+sftp: secure file transfer protocol
+smtp: simple mail transfer protocol
+imap: internet message access protocol
+pop: post office protocol
+smpt: simple mail transfer protocol
+rsa: rivest-shamir-adleman
+aes: advanced encryption standard
+rsa: rivest-shamir-adleman
+pgp: pretty good privacy
+ssl: secure sockets layer
+tls: transport layer security
+hmac: hash-based message authentication code
+sha: secure hash algorithm
+md5: message digest algorithm 5
+vpn: virtual private network
+vpn: virtual private network
+wpa: wi-fi protected access
+wpa2: wi-fi protected access 2
+wep: wired equivalent privacy
+rdp: remote desktop protocol
+vnc: virtual network computing
+bgp: border gateway protocol
+snmp: simple network management protocol
+icmp: internet control message protocol
+arp: address resolution protocol
+http: hypertext transfer protocol
+https: hypertext transfer protocol secure
+dns: domain name system
+dhcp: dynamic host configuration protocol
+ip: internet protocol
+udp: user datagram protocol
+tcp: transmission control protocol
+git: global information tracker
+github: github code repository
+cli: command line interface
+ide: integrated development environment
+gui: graphical user interface
+sdk: software development kit
+jvm: java virtual machine
+jre: java runtime environment
+jdk: java development kit
+mvc: model view controller
+html5: hypertext markup language 5
+ajax: asynchronous javascript and xml
+rest: representational state transfer
+json: javascript object notation
+xml: extensible markup language
+yaml: yaml ain’t markup language
+restful: representational state transfer
+jwt: json web token
+oauth: open authorization
+api: application programming interface
+crud: create, read, update, delete
+soap: simple object access protocol
+rpc: remote procedure call
+uuid: universally unique identifier
+ssl: secure sockets layer
+tls: transport layer security
+ssl: secure sockets layer
+tls: transport layer security
+ipsec: internet protocol security
+nat: network address translation
+lan: local area network
+wan: wide area network
+vpn: virtual private network
+aws: amazon web services
+gcp: google cloud platform
+azure: microsoft azure
+iaas: infrastructure as a service
+paas: platform as a service
+saas: software as a service
+faas: function as a service
+baas: backend as a service
+caas: container as a service
+kubernetes: container orchestration tool
+docker: containerization platform
+ci/cd: continuous integration/continuous delivery
+ci: continuous integration
+cd: continuous deployment
+tdd: test-driven development
+bdd: behavior-driven development
+oop: object-oriented programming
+solid: single responsibility, open/closed, liskov substitution, interface segregation, dependency inversion
+jit: just-in-time compilation
+paas: platform as a service
+nosql: not only sql
+kpi: key performance indicator
+tos: terms of service
+sla: service level agreement
+eula: end user license agreement
+mvp: minimum viable product
+aws: amazon web services
+big data: large-scale data processing
+etl: extract, transform, load
+bi: business intelligence
+hadoop: open-source framework for big data
+mapreduce: data processing model
+nosql: not only sql
+rdbms: relational database management system
+iot: internet of things
+ai: artificial intelligence
+ml: machine learning
+dl: deep learning
+rnn: recurrent neural network
+cnn: convolutional neural network
+svm: support vector machine
+pca: principal component analysis
+knn: k-nearest neighbors
+kmeans: k-means clustering
+lstm: long short-term memory
+gan: generative adversarial network
+nlp: natural language processing
+ocr: optical character recognition
+bert: bidirectional encoder representations from transformers
+gpt: generative pre-trained transformer
+ai: artificial intelligence
+ml: machine learning
+dnn: deep neural network
+api: application programming interface
+bpmn: business process model and notation
+cam: computer-aided manufacturing
+cad: computer-aided design
+csm: customer success manager
+cto: chief technology officer
+ceo: chief executive officer
+cio: chief information officer
+soa: service-oriented architecture
+sap: systems, applications, and products
+erp: enterprise resource planning
+hrms: human resource management system
+crm: customer relationship management
+paas: platform as a service
+iaas: infrastructure as a service
+sql: structured query language
+html: hypertext markup language
+css: cascading style sheets
+javascript: js
+php: hypertext preprocessor
+python: py
+java: j2ee
+c++: c plus plus
+c#: c sharp
+r: r programming language
+matlab: matrix laboratory
+git: version control
+github: git repository hosting
+jira: project management
+selenium: web automation
+node.js: javascript runtime
+react.js: react javascript library
+angular: angular framework
+vue.js: javascript framework
+flask: python web framework
+django: python web framework
+spring: java framework
+laravel: php framework
+bootstrap: frontend framework
+tailwind: css framework
+mysql: my structured query language
+postgresql: postgresql database
+mongodb: nosql database
+firebase: real-time database
+redis: key-value store
+elasticsearch: search engine
+hadoop: big data framework
+apache kafka: distributed streaming platform
+mapreduce: data processing model
+tensorflow: machine learning framework
+pytorch: deep learning framework
+keras: deep learning api
+scikit-learn: machine learning library
+xgboost: gradient boosting library
+lightgbm: gradient boosting framework
+nltk: natural language toolkit
+spacy: nlp library
+pandas: data analysis library
+numpy: numerical python
+matplotlib: plotting library
+seaborn: statistical data visualization
+power bi: data visualization tool
+tableau: business intelligence tool
+rstudio: r ide
+jupyter: interactive computing notebook
+aws: amazon web services
+azure: microsoft cloud platform
+google cloud: google cloud services
+docker: containerization platform
+kubernetes: container orchestration
+ci/cd: continuous integration/continuous deployment
+terraform: infrastructure as code
+ansible: configuration management
+puppet: configuration management tool
+chef: automation platform
+selenium: test automation
+jenkins: automation server
+sonarqube: code quality management
+jmeter: load testing tool
+swagger: api documentation
+opencv: computer vision library
+d3.js: data visualization javascript library
+apache spark: big data processing
+kinesis: real-time data processing
+azure ml: machine learning platform
+google ai: artificial intelligence tools
+bigquery: data warehouse solution
+pandas: data structures for python
+sqlalchemy: sql toolkit for python
+celery: task queue for python
+fastapi: python web framework
+graphql: query language for apis
+jupyterlab: web-based interactive development environment
+conda: package and environment manager
+vscode: visual studio code
+eclipse: java ide
+netbeans: integrated development environment
+xcode: apple development ide
+android studio: ide for android development
+react native: mobile development framework
+flutter: cross-platform mobile framework
+swift: programming language for ios
+kotlin: programming language for android
+google analytics: web analytics tool
+mixpanel: product analytics platform
+amplitude: analytics tool for product teams
+gitlab: git repository management
+bitbucket: git repository hosting
+slack: collaboration tool
+trello: project management tool
+asana: task and project management
+basecamp: project management software
+notion: workspace for notes and knowledge
+evernote: note-taking application
+zendesk: customer service software
+freshdesk: customer support software
+hubspot: inbound marketing, sales & service
+salesforce: crm software
+zoho crm: crm software
+intercom: customer messaging platform
+stripe: payment processing
+paypal: online payment system
+square: payment solutions
+shopify: e-commerce platform
+woocommerce: e-commerce plugin for wordpress
+magento: e-commerce platform
+prestashop: e-commerce solution
+joomla: cms (content management system)
+wordpress: cms for website development
+drupal: content management framework
+bitnami: software deployment tool
+heroku: cloud platform as a service
+gitlab ci: continuous integration service
+travis ci: continuous integration tool
+circleci: continuous integration service
+appveyor: continuous integration service
+vagrant: development environment
+terraform: infrastructure as code
+docker compose: multi-container docker application
+kong: api gateway
+nginx: web server and reverse proxy
+apache httpd: web server
+tomcat: application server
+websocket: full-duplex communication protocol
+apache kafka: distributed streaming platform
+rabbitmq: message broker
+redis: in-memory data store
+cassandra: nosql database
+neo4j: graph database
+graphql: query language for apis
+bash: shell scripting language
+powershell: scripting language
+zsh: z shell
+fish: friendly interactive shell
+cron: job scheduler in unix
+oauth: open authorization
+jwt: json web token
+openid: authentication protocol
+tls: transport layer security
+ssl: secure sockets layer
+jwt: json web token
+saml: security assertion markup language
+ldap: lightweight directory access protocol
+rsa: rivest-shamir-adleman algorithm
+aes: advanced encryption standard
+rsa: rivest-shamir-adleman algorithm
+pgp: pretty good privacy
+hmac: hash-based message authentication code
+ntp: network time protocol
+dhcp: dynamic host configuration protocol
+ipsec: internet protocol security
+vpn: virtual private network
+ssl: secure sockets layer
+wpa2: wi-fi protected access 2
+rdp: remote desktop protocol
+wi-fi: wireless fidelity
+udp: user datagram protocol
+tcp: transmission control protocol
+bgp: border gateway protocol
+igmp: internet group management protocol
+snmp: simple network management protocol
+icmp: internet control message protocol
+ftp: file transfer protocol
+sftp: secure file transfer protocol
+tftp: trivial file transfer protocol
+dns: domain name system
+git: version control
+ci/cd: continuous integration/continuous deployment
+rnn: recurrent neural network
+lstm: long short-term memory
+svm: support vector machine
+pca: principal component analysis
+knn: k-nearest neighbors
+naive bayes: statistical classification
+rf: random forest
+xgboost: extreme gradient boosting
+lightgbm: light gradient boosting machine
+gan: generative adversarial network
+kmeans: k-means clustering
+dbscan: density-based spatial clustering of applications with noise
+pca: principal component analysis
+t-sne: t-distributed stochastic neighbor embedding
+bert: bidirectional encoder representations from transformers
+gpt: generative pretrained transformer
+tf-idf: term frequency-inverse document frequency
+word2vec: word to vector
+glove: global vectors for word representation
+fasttext: text classification and representation
+wordnet: lexical database of english
+pca: principal component analysis
+rpa: robotic process automation
+ai: artificial intelligence
+ml: machine learning
+dl: deep learning
+nlp: natural language processing
