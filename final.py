@@ -52,7 +52,7 @@ def extract_experience_and_skills(ner_result):
     return experience_entities, skill_entities
 
 # Endpoint to process job description and resume
-@app.route('https://keyword-similarity.onrender.com/process', methods=['POST'])
+@app.route('/process', methods=['POST'])
 def process_data():
     try:
         # Parse JSON payload
